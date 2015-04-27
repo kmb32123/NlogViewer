@@ -23,7 +23,7 @@ To setup NlogViewer as a target, add the following to your Nlog.config.
     <add assembly="NlogViewer" />
   </extensions>
   <targets>
-    <target xsi:type="NlogViewer" name="ctrl" />
+    <target xsi:type="NLogViewer" name="ctrl" />
   </targets>
   <rules>
     <logger name="*" minlevel="Trace" writeTo="ctrl" />
